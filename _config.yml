@@ -6,26 +6,26 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Marco Ensing
+title: Senior Devops Engineer
+email: marco@baklap.nl
+website: https://marcoensing.nl/aboutme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  madcow_thafirst
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,13 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  I'm a social person with a professional and pragmatic mentality. A technical challenge is what gets me going, grab the problem and take it to end to find a solution. A pleasant working environment and a personal touch are important to me.
+  My hobbies are soccer, cars, movies, running and holidays to the USA.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  My current role revolves around automation for cloud based solutions. Working mainly with Terraform & Ansible provisioning WSO2 environments on AWS.
+
+  In my previous role I was mainly working with IBM related technologies with a focus on IBM Connections.
+  I also have a broad knowledge of other IBM WebSphere based products like: Sametime, WebSphere Portal, WebSphere Application Server and IBM MQ.
 
 content:
   - title: Projects # Title for the section
@@ -90,23 +94,23 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Hogeschool Drenthe in Emmen (The Netherlands)
+        caption: 2004 - 2007
+        sub_title: Bachelor of Information and Communication Technology
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+	Graduated in 2007 at the Hogeschool Drenthe in Emmen (The Netherlands) for my bachelor degree (Bachelor of Information and Communication Technology). I took my final internship at a company located in Willemstad (Curacao).
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
+      - Football ( FC Groningen )
+      - Movies
+      - Running
+      - Driving and fixing my Nissan 350z '05
+      - Exploring the Netherlands
+      - Holidays to the UK
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
