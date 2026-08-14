@@ -121,7 +121,7 @@ content:
           Middlware specialst
         description: | # this will include new lines to allow paragraphs
           Het leveren van 1ste en 2de lijns support voor de verschillende middlware producten die binnen de Rabobank werden gebruikt.
-        De lijst van te supporten applicaties bestond onder andere uit; IBM WebSphere MQ, Sterling Connect Direct, IBM Datapower, Sterling File Gateway en diverse andere applicaties op een potpouri van systemen. Van Windows, Linux, HPux, AIX tot z/OS.
+          De lijst van te supporten applicaties bestond onder andere uit; IBM WebSphere MQ, Sterling Connect Direct, IBM Datapower, Sterling File Gateway en diverse andere applicaties op een potpouri van systemen. Van Windows, Linux, HPux, AIX tot z/OS.
     content:
       - layout: left
         title: e-office
