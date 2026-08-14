@@ -78,10 +78,6 @@ content:
           Resultaat: maximaal in control, alles afgedwongen in IaC, en disaster recovery zit letterlijk in de dagelijkse routine.
 
           Stack: Jenkins, Groovy, Terraform, AWS (EKS), ArgoCD, Bash.
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: top-middle
         title: Homelab
         # link_text: Project Website
