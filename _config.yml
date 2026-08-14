@@ -9,7 +9,7 @@ version: 2
 name: Marco Ensing
 title: Senior DevOps Engineer
 email: marco@baklap.nl
-website: https://marcoensing.nl/aboutme
+website: https://marcoensing.nl
 
 # Dark Mode (true/false/never)
 darkmode: false
