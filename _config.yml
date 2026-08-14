@@ -109,8 +109,6 @@ content:
           2) Meegegroeid met de ontwikkelingen van AWS en begonnen als engineer van een team om WSO2 oplossingen infra wise via geautomatiseerde processen makkelijk uit te kunnen rollen. Dit voor namelijk door middel van Jenkins en terraform.
 
           3) Senior in het team welke de bouw en ontwikkeling van het SureSync Connect platform support. Volledig betrokken bij de bouw, onderhoud en aansturen van verbeteringen dan wel voor security, kosten perspectief en of het dynamisch kunnen opschalen bij grotere load.
-
-    content:
       - layout: left
         title: Virtual Science ( onderdeel van Conclusion )
         link: conclusion.com
