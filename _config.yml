@@ -48,20 +48,32 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I'm a social person with a professional and pragmatic mentality. A technical challenge is what gets me going, grab the problem and take it to end to find a solution. A pleasant working environment and a personal touch are important to me.
-  My hobbies are soccer, cars, movies, running and holidays to the USA.
+  Mijn naam is Marco Ensing. Ik ben een social persoon met een professionele, kritische en pragmatische mentaliteit.
+  Een ingewikkeld technisch probleem kunnen oplossen is wat mij energie geeft, een project aanpakken, onderzoeken doorgronden en
+  te komen tot een goede technische oplossing.
 
-  My current role revolves around automation for cloud based solutions. Working mainly with Terraform & Ansible provisioning WSO2 environments on AWS.
+  Een gezellige werkomgeving en een persoonlijke aanpak zijn belangrijk voor mij.
 
-  In my previous role I was mainly working with IBM related technologies with a focus on IBM Connections.
-  I also have a broad knowledge of other IBM WebSphere based products like: Sametime, WebSphere Portal, WebSphere Application Server and IBM MQ.
+  Mijn hobbie's zijn voetbal, groot fan van de Groningen FC, ik ben gek van auto's, hou van series & films kijken en vakanties
+  binnen Europa. Denmarken, en het liefst Engeland.
+
+  In mijn huidige rol hou ik mij als Senior DevOps engineer bezig met het onderhouden, verbeteren van kubernetes omgevingen en het 
+  ondersteunen van onze ontwikkelaars.
+  Mijn werk beslaat uit het het uitrollen van de infrastructuur ( momenteel AWS ) en het deployen van alle ondersteunende middleware applicaties, 
+  tot het uitrollen van de verschillende Java docker images die tesamen onze applicatie stack maken.
+
+  Mijn dagelijkse toolset bestaat momenteel uit; vi, jenkins, terraform, argocd, groovy, java, bash, jira, confluence.
+    
+  In vorige tijdperiode's heb ik gewerkt met terraform en ansible voor het onderhouden en supporten van WSO2 omgevingen op AWS.
+  Daarvoor begonnen met IBM software, hoofdzakelijk was dit IBM Connections, maar dan ook alles daaran gerelateeerd, IBM WebSphere 
+  gebaseerde producten zoals: Sametime, WebSphere Portal, WebSphere Application Server, DB2 en IBM MQ.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
+        title: Instructure as Code
         link: github.com/sproogen
         # link_text: Project Website
         additional_links:
@@ -72,47 +84,104 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Van niks naar een full deploy met 1 Jenkins pipeline
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          In verschillende fases een infrasture-as-code opzet kunnen realiseren waarbij een Jenkins pipeline dmvm terraform een AWS EKS cluster
+          infra opbouwt, daarin worden automatisch gedployed alle nodige middlware componenten. Daarop voortbordurende worden ook alle nodige 
+          Java dockers automatische gedeployed die er alles tesamen dan voor zorgen dat onze SureSync connect applicatie extern bereikbaar is.
+          Dit zo solide kunnen maken dat we de pipeline \s morgens gescheduled laten draaien 1 uur later is de omgeving live. \s avonds
+          tegen zevenen draait een terraform destroy die alles verwijderd. Daarbij wel data veilg stelt en deze \'s morgens tijden de opbouw als restore punte gebruikt. Maximaal in controle zijn, forceert om alles in IaC te doen, disaster recovery model is binnen handbereik.
 
-  - title: Experience # Title for the section
+  - title: Ervaringen # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: SureSync ( voor heen Visma Connect B.V. / EBPI )
+        link: suresync.nl
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Senior DevOps Engineer
+        caption: 2018
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          DevOps to the Max
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          1) Begonnen als IBM technisch specialist. Engineer bij een grootschallig migratie traject om overheids applicaties zoals Digipoort en de backend van de Berichtenbox te upgraden naar meer recentere middleware applicaties. Dit ging om groot schallige omgevingen met high availability eisen. In totaal ging het om negen verschillende omgevingen. Door middel van o.a. Ansible en XLdeploy zoveel mogelijk uitrollen ge-automatiseerd om een universele manier van uitrollen te bewerkstelligen.
+
+          2) Meegegroeid met de ontwikkelingen van AWS en begonnen als engineer van een team om WSO2 oplossingen infra wise via geautomatiseerde processen makkelijk uit te kunnen rollen. Dit voor namelijk door middel van Jenkins en terraform.
+
+          3) Senior in het team welke de bouw en ontwikkeling van het SureSync Connect platform support. Volledig betrokken bij de bouw, onderhoud en aansturen van verbeteringen dan wel voor security, kosten perspectief en of het dynamisch kunnen opschalen bij grotere load.
+
+    content:
+      - layout: left
+        title: Virtual Science ( onderdeel van Conclusion )
+        link: conclusion.com
+        # link_text: boringcompany.com
+        sub_title: IBM technical specialist
+        caption: 2017 - 2018
+        quote: >
+          Middlware specialst
+        description: | # this will include new lines to allow paragraphs
+          Het leveren van 1ste en 2de lijns support voor de verschillende middlware producten die binnen de Rabobank werden gebruikt.
+        De lijst van te supporten applicaties bestond onder andere uit; IBM WebSphere MQ, Sterling Connect Direct, IBM Datapower, Sterling File Gateway en diverse andere applicaties op een potpouri van systemen. Van Windows, Linux, HPux, AIX tot z/OS.
+    content:
+      - layout: left
+        title: e-office
+        link: e-office.com
+        # link_text: boringcompany.com
+        sub_title: IBM Connections technical specialist
+        caption: 2013 - 2017
+        quote: >
+          e-office, ronde II
+        description: | # this will include new lines to allow paragraphs
+          Diverse IBM Connections, WebSphere Portal  en IBM Sametime on-premise rollouts gedaan voor verschillende klanten. Het Rijksinstuut voor Volksgezondheid en Milieu (RIVM), Veilgheid.nl, Rijk Zwaan, EuroMBA, Jan de Rijk. 
+    content:
+      - layout: left
+        title: Research In Motion
+        link: rim.com
+        # link_text: boringcompany.com
+        sub_title: IBM Connections specialist
+        caption: 2012 - 2012
+        quote: >
+          In de hoogtij dagen van de Blackberry
+        description: | # this will include new lines to allow paragraphs
+          Het beheren en onderhouden van de IBM Connections omgeving van RIM met een wereldwijde userbase van meer dan 15000 gebruikers.
+
+    content:
+      - layout: left
+        title: e-office
+        link: e-office.com
+        # link_text: boringcompany.com
+        sub_title: IBM technical software specialist
+        caption: 2007 - 2011
+        quote: >
+          Mijn eerste werkgever 
+        description: | # this will include new lines to allow paragraphs
+          Mijn IT carierre begonnen bij e-office in 2007. Gedurende de jaren diversie projecten bij verschillende klanten gedaan voornamelijk
+          technisch on-permise uitrollen en technisch ondersteunen van de IBM Connection suite. Het grootste project was het uitrollen van IBM Connections bij LeasePlan toendertijd actief in 28 landen. 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Hogeschool Drenthe in Emmen (The Netherlands)
+        title: Hogeschool Drenthe in Emmen
         caption: 2004 - 2007
-        sub_title: Bachelor of Information and Communication Technology
+        sub_title: Bachelor Mens & Informatica
         quote: > 
-          VDJFJ
+          HBO
         description: | # this will include new lines to allow paragraphs
-           Graduated in 2007 at the Hogeschool Drenthe in Emmen (The Netherlands) for my bachelor degree (Bachelor of Information and Communication Technology). I took my final internship at a company located in Willemstad (Curacao).
+           Afgestudeerd in 2007 aan de Hogeschool Drenthe in Emmen voor mijn bachelor diploma.
+           Ik heb mijn afstuderen gedaan bij een bedrijf in Willemstad, Curacao.
 
-  - title: A Little More About Me
+  - title: Een beetje meer over mij
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Football ( FC Groningen )
-      - Movies
-      - Running
-      - Driving and fixing my Nissan 350z '05
-      - Exploring the Netherlands
-      - Holidays to the UK
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Interesses & Hobbies:
+      - Voetbal ( FC Groningen )
+      - Hobby-en met mijn eigen "server". Portainer met o.a. Nextcloud, Kuma, OpenVPN
+      - Films & series
+      - Hardlopen
+      - Rijden en knutselen aan mijn Nissan 350z ui 2005
+      - Nederland ontdekken
+      - Vakanties naar Engeland
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
