@@ -57,7 +57,6 @@ about_content: | # this will include new lines to allow paragraphs
   Daarvoor werkte ik met Terraform en Ansible voor het onderhouden en supporten van WSO2 omgevingen op AWS.
   En daar weer voor kwam ik uit de IBM-hoek: IBM Connections en het bijbehorende WebSphere-ecosysteem (Sametime, WebSphere Portal, WebSphere Application Server, DB2, IBM MQ).
 
-  Dagelijkse toolset:  vi, jenkins, Terraform, argocd, groovy, java, bash, jira, confluence.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -151,6 +150,23 @@ content:
            Afgestudeerd in 2007 aan de Hogeschool Drenthe in Emmen voor mijn bachelor diploma.
            Ik heb mijn afstuderen gedaan bij een bedrijf in Willemstad, Curacao.
 
+  - title: Tools momenteel in mijn dagelijkse werk
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Linux
+      - Terraform
+      - Jenkins / Groovy 
+      - kubernetes
+      - Docker 
+      - ArgoCD
+      - git
+      - java
+      - vi
+      - AWS ( o.a. Cognito, API GW, EKS, S3, MSK etc )
+      - Bash scripting
+      - Networking
+      - AI ( Claude, Vibe )
+
   - title: Een beetje meer over mij
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -158,6 +174,7 @@ content:
       - Voetbal ( FC Groningen )
       - Sleutelen aan mijn eigen homelab. Portainer met o.a. Nextcloud, Kuma, OpenVPN
       - Films & series
+      - Onze katten
       - Hardlopen
       - Rijden en knutselen aan mijn Nissan 350z uit 2005
       - Nederland ontdekken
