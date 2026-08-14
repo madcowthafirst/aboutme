@@ -1,3 +1,9 @@
+description: >
+  Senior DevOps Engineer met focus op Kubernetes, Terraform en Jenkins
+  pipelines op AWS. Van IBM-verleden tot moderne cloud-native stacks.
+lang: nl-NL
+locale: nl_NL
+
 # Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
@@ -62,7 +68,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Instructure as Code
+        title: Infrastructure as Code
         # link_text: Project Website
         additional_links:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -71,7 +77,7 @@ content:
         quote: >
           Van niks naar een full deploy met 1 Jenkins pipeline
         description: | # this will include new lines to allow paragraphs
-          Een volledige Infrastructure-as-Code-opzet gebouwd waarbij één Jenkins-pipeline via Terraform een AWS EKS-cluster opbouwt, inclusief automatische deploy van alle benodigde middleware. Daarbovenop worden de Java-containers uitgerold die samen onze SureSync Connect-applicatie extern bereikbaar maken.
+          Een volledige Infrastructure as Code opzet gebouwd waarbij één Jenkins-pipeline via Terraform een AWS EKS-cluster opbouwt, inclusief automatische deploy van alle benodigde middleware. Daarbovenop worden de Java-containers uitgerold die samen onze SureSync Connect-applicatie extern bereikbaar maken.
 
           De pipeline is zo solide gemaakt dat hij 's ochtends gescheduled draait — een uur later staat de omgeving live. 's Avonds rond zeven uur draait een terraform destroy die alles opruimt, waarbij data veilig wordt gesteld en 's ochtends als restorepunt dient bij het opbouwen.
 
@@ -86,11 +92,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          het-alles-zelf-in-control-willen-hebben-project          
+          "Alles zelf in control willen hebben"
         description: | # this will include new lines to allow paragraphs
           Een Intel NUC met ESXi met daarop een PhotonOS VM en een TrueNAS VM. Op PhotonOS een mix van dockers draaien. Portainer om de boel
-          te kunnen manage-en. Nextcloud om document en foto's van mijn mobiel ook thuis op mijn laptop te kunnen gebruiken en vice-versa.
-          OpenVPN omdat public services ontsluiten een fulltime job zou gaan worden. Duplicate om via een external USB disk backups te maken, 
+          te kunnen manage-en. Nextcloud om documenten en foto's van mijn mobiel ook thuis op mijn laptop te kunnen gebruiken en vice-versa.
+          OpenVPN omdat public services ontsluiten een fulltime job zou gaan worden. Duplicati om via een external USB disk backups te maken, 
           externe USB replicator om rotatie te doen, en een versie extern te kunnen bewaren.
           Stack:
             ESXI, Linux, TrueNAS, Portainer, NextCloud, Duplicati, FreeIPA, ngninx
@@ -152,8 +158,8 @@ content:
         quote: >
           Mijn eerste werkgever 
         description: | # this will include new lines to allow paragraphs
-          Mijn IT carriere begonnen bij e-office in 2007. In de jaren erna diverse projecten bij verschillende klanten gedaan, voor namelijk
-          on-premise uitrollen en support van de IBM Connection suite. Het grootste project was het uitrollen van IBM Connections bij LeasePlan destijds actief in 28 landen. 
+          Mijn IT carriere begonnen bij e-office in 2007. In de jaren erna diverse projecten bij verschillende klanten gedaan, voornamelijk
+          on-premise uitrollen en support van de IBM Connections-suite. Het grootste project was het uitrollen van IBM Connections bij LeasePlan destijds actief in 28 landen. 
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -174,16 +180,16 @@ content:
       - Linux
       - Terraform
       - Jenkins / Groovy 
-      - kubernetes
+      - Kubernetes
       - Docker 
       - ArgoCD
-      - git
-      - java
+      - Git
+      - Java
       - vi
       - AWS ( o.a. Cognito, API GW, EKS, S3, MSK etc )
       - Bash scripting
       - Networking
-      - AI ( Claude, Vibe )
+      - AI prompt engineering
 
   - title: Een beetje meer over mij
     layout: text
@@ -212,3 +218,6 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+
+
