@@ -64,7 +64,6 @@ content:
     content:
       - layout: top-middle
         title: Instructure as Code
-        link: github.com/sproogen
         # link_text: Project Website
         additional_links:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
