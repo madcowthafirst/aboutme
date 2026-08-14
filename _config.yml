@@ -122,7 +122,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Het leveren van 1ste en 2de lijns support voor de verschillende middlware producten die binnen de Rabobank werden gebruikt.
           De lijst van te supporten applicaties bestond onder andere uit; IBM WebSphere MQ, Sterling Connect Direct, IBM Datapower, Sterling File Gateway en diverse andere applicaties op een potpouri van systemen. Van Windows, Linux, HPux, AIX tot z/OS.
-    content:
       - layout: left
         title: e-office
         link: e-office.com
@@ -133,7 +132,6 @@ content:
           e-office, ronde II
         description: | # this will include new lines to allow paragraphs
           Diverse IBM Connections, WebSphere Portal  en IBM Sametime on-premise rollouts gedaan voor verschillende klanten. Het Rijksinstuut voor Volksgezondheid en Milieu (RIVM), Veilgheid.nl, Rijk Zwaan, EuroMBA, Jan de Rijk. 
-    content:
       - layout: left
         title: Research In Motion
         link: rim.com
@@ -144,8 +142,6 @@ content:
           In de hoogtij dagen van de Blackberry
         description: | # this will include new lines to allow paragraphs
           Het beheren en onderhouden van de IBM Connections omgeving van RIM met een wereldwijde userbase van meer dan 15000 gebruikers.
-
-    content:
       - layout: left
         title: e-office
         link: e-office.com
