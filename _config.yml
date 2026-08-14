@@ -79,6 +79,26 @@ content:
 
           Stack: Jenkins, Groovy, Terraform, AWS (EKS), ArgoCD, Bash.
 
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Homelab
+        # link_text: Project Website
+        additional_links:
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          het-alles-zelf-in-control-willen-hebben-project          
+        description: | # this will include new lines to allow paragraphs
+          Een Intel NUC met ESXi met daarop een PhotonOS VM en een TrueNAS VM. Op PhotonOS een mix van dockers draaien. Portainer om de boel
+          te kunnen manage-en. Nextcloud om document en foto's van mijn mobiel ook thuis op mijn laptop te kunnen gebruiken en vice-versa.
+          OpenVPN omdat public services ontsluiten een fulltime job zou gaan worden. Duplicate om via een external USB disk backups te maken, 
+          externe USB replicator om rotatie te doen, en een versie extern te kunnen bewaren.
+          Stack:
+            ESXI, Linux, TrueNAS, Portainer, NextCloud, Duplicati, FreeIPA, ngninx
+             
   - title: Ervaringen # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -87,7 +107,7 @@ content:
         link: suresync.nl
         # link_text: boringcompany.com
         sub_title: Senior DevOps Engineer
-        caption: 2018
+        caption: 2018 - heden
         quote: >
           Doorgroeien naar DevOps....
         description: | # this will include new lines to allow paragraphs
@@ -152,7 +172,7 @@ content:
            Afgestudeerd in 2007 aan de Hogeschool Drenthe in Emmen voor mijn bachelor diploma.
            Ik heb mijn afstuderen gedaan bij een bedrijf in Willemstad, Curacao.
 
-  - title: Tools momenteel in mijn dagelijkse werk
+  - title: Skill/toolset 
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Linux
