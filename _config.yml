@@ -89,10 +89,12 @@ content:
         sub_title: Senior DevOps Engineer
         caption: 2018
         quote: >
-          DevOps to the Max
+          Doorgroeien naar DevOps....
         description: | # this will include new lines to allow paragraphs
           1) Begonnen als IBM technisch specialist in een grootschalig migratietraject waarbij overheidsapplicaties zoals Digipoort en de backend van de Berichtenbox naar modernere middleware zijn gebracht. Grote omgevingen, high-availability-eisen, in totaal negen omgevingen. Uitrol zoveel mogelijk geautomatiseerd via Ansible en XLdeploy om één universele deploy-methode af te dwingen.
+
           2) Meegegroeid met AWS en overgestapt naar een team dat WSO2-oplossingen infrastructureel via geautomatiseerde processen uitrolt, voornamelijk met Jenkins en Terraform.
+
           3) Senior in het team dat het SureSync Connect-platform bouwt en beheert. Betrokken bij bouw, onderhoud en verbeteringen op het vlak van security, kosten en dynamisch opschalen bij hogere load.
 
       - layout: left
