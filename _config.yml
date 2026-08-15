@@ -14,7 +14,7 @@ version: 2
 # Personal info
 name: Marco Ensing
 title: Senior DevOps Engineer
-email: marco@baklap.nl
+email: aboutme@baklap.nl
 website: https://marcoensing.nl
 
 # Dark Mode (true/false/never)
@@ -63,6 +63,10 @@ about_content: | # this will include new lines to allow paragraphs
   Daarvoor werkte ik met Terraform en Ansible voor het onderhouden en supporten van WSO2 omgevingen op AWS.
   En daar weer voor kwam ik uit de IBM-hoek: IBM Connections en het bijbehorende WebSphere-ecosysteem (Sametime, WebSphere Portal, WebSphere Application Server, DB2, IBM MQ).
 
+  Een grote interesse in de huidige AI race en de discussie of de grote afhankelijk van Big Tech uit Amerika de juiste manier voorwaarts is. 
+  Wat is de impact van dit alles op het IT landschap? Hoe gaat dit het werk veranderen? Hoe gaat dit mijn werk veranderen?
+  Uitproberen van Europese cloud providers ( Scaleway ), verdiepen in wat de andere Europese providers kunnen ( StackIt, Hetzner, OVH-cloud ).
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -75,7 +79,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Van niks naar een full deploy met 1 Jenkins pipeline
+          Van niks naar een full deploy met 1 Jenkins pipeline ( SureSync )
         description: | # this will include new lines to allow paragraphs
           Een volledige Infrastructure as Code opzet gebouwd waarbij één Jenkins-pipeline via Terraform een AWS EKS-cluster opbouwt, inclusief automatische deploy van alle benodigde middleware. Daarbovenop worden de Java-containers uitgerold die samen onze SureSync Connect-applicatie extern bereikbaar maken.
 
@@ -85,7 +89,7 @@ content:
 
           Stack: Jenkins, Groovy, Terraform, AWS (EKS), ArgoCD, Bash.
       - layout: top-middle
-        title: Homelab
+        title: Homelab ( Thuis hobby )
         # link_text: Project Website
         additional_links:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -98,8 +102,8 @@ content:
           te kunnen manage-en. Nextcloud om documenten en foto's van mijn mobiel ook thuis op mijn laptop te kunnen gebruiken en vice-versa.
           OpenVPN omdat public services ontsluiten een fulltime job zou gaan worden. Duplicati om via een external USB disk backups te maken, 
           externe USB replicator om rotatie te doen, en een versie extern te kunnen bewaren.
-          Stack:
-            ESXI, Linux, TrueNAS, Portainer, NextCloud, Duplicati, FreeIPA, ngninx
+
+          Stack:  ESXI, Linux, TrueNAS, Portainer, NextCloud, Duplicati, FreeIPA, ngninx
              
   - title: Ervaringen # Title for the section
     layout: list # Type of content section (list/text)
@@ -174,7 +178,7 @@ content:
            Afgestudeerd in 2007 aan de Hogeschool Drenthe in Emmen voor mijn bachelor diploma.
            Ik heb mijn afstuderen gedaan bij een bedrijf in Willemstad, Curacao.
 
-  - title: Skill/toolset 
+  - title: Skills/toolset 
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Linux
@@ -189,9 +193,8 @@ content:
       - AWS ( o.a. Cognito, API GW, EKS, S3, MSK etc )
       - Bash scripting
       - Networking
-      - AI prompt engineering
 
-  - title: Een beetje meer over mij
+  - title: Meer over mij
     layout: text
     content: | # this will include new lines to allow paragraphs
       Interesses & Hobbies:
