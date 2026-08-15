@@ -72,14 +72,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Infrastructure as Code
+        title: Infrastructure as Code ( SureSync )
         # link_text: Project Website
         additional_links:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Van niks naar een full deploy met 1 Jenkins pipeline ( SureSync )
+          Van niks naar een full deploy met 1 Jenkins pipeline 
         description: | # this will include new lines to allow paragraphs
           Een volledige Infrastructure as Code opzet gebouwd waarbij één Jenkins-pipeline via Terraform een AWS EKS-cluster opbouwt, inclusief automatische deploy van alle benodigde middleware. Daarbovenop worden de Java-containers uitgerold die samen onze SureSync Connect-applicatie extern bereikbaar maken.
 
