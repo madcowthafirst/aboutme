@@ -28,7 +28,7 @@ github_username:  madcowthafirst
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-# linkedin_username: jameswgrant
+linkedin_username: marcoensing
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -220,7 +220,7 @@ sass:
   style: compressed
 
 plugins:
+ - jekyll-remote-theme
  - jekyll-seo-tag
-
 
 

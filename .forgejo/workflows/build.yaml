@@ -1,0 +1,47 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: docker
+    container:
+      image: ruby:3.3-bookworm
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Cache gems
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: gems-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: gems-
+
+      - name: Install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install --jobs 4 --retry 3
+
+      - name: Build site
+        run: bundle exec jekyll build --destination _site
+
+      - name: Add custom domain file
+        run: echo "marcoensing.nl" > _site/.domains
+
+      - name: Deploy to pages branch
+        run: |
+          cd _site
+          git init -b pages
+          git config user.email "ci@marcoensing.nl"
+          git config user.name "Forgejo Actions"
+          git add -A
+          git commit -m "Deploy $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          git remote add origin ssh://git@codeberg.org/marcoensing/aboutme.git
+          git push --force origin pages
+
